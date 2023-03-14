@@ -11,7 +11,6 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    background-color: #ad3636;
 }
 /* Variables */
 :root {
@@ -55,12 +54,16 @@ header {
     line-height: 30px;
     text-decoration: none;
 }
+.header__nav-grid-a :hover {
+    background-color: #ed0000;
+}
 .header__nav-button {
     width: 220px;
     height: 70px;
     background-color: #fff;
     border: 1px solid var(--color-link);
     border-radius: 3px; 
+    cursor: pointer;
 }
 .button {
     color: #000;
@@ -73,6 +76,56 @@ header {
 
 }
 /* Home */
+.home {
+    padding-top: 178px;
+}
+.home__flex {
+    display: flex;
+    align-items: center;
+}
+.hime__flex-item {
+    width: 560px;
+}
+.home__flex-flex {
+    display: flex;
+    align-items: center;
+}
+.home__flex-flex-h {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.home__flex-flex-img {
+    padding: 28px 17px 0 0;
+}
+.home__flex-p {
+    color: var(--color-p);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 61px;
+}
+.home__flex-button {
+    width: 438px;
+    height: 118px;
+    background-color: var(--color-link);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.home__flex-button-h {
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+}
+.home__flex-img {
+    padding-left: 119px;
+}
 
 @media screen and (max-width: 1360px) {
 
