@@ -9,19 +9,96 @@ html {
     padding: 0;
 }
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-color: #ad3636;
 }
 /* Variables */
 :root {
-    --color-blue: #00A4E5;
-    --color-grey: #48555B;
-    --color-white: #fff;
+    --color-link: #263238;
+    --color-p: #8F95A5;
+    --color-grid: #F5F5F5;
+    --color-pay: #EEE;
 }
 /* Overall Width */
 .container {
-    max-width: 940px;
+    max-width: 1340px;
     width: 100%;
     margin: 0 auto;
 }
 /* Header */
+header {
+    background-color: #fff;
+    margin: 0 auto;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    top: 0px;
+    z-index: 2;
+}
+.header__nav {
+    padding: 51px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 518px;
+}
+.header__nav-grid-a {
+    color: var(--color-link);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+}
+.header__nav-button {
+    width: 220px;
+    height: 70px;
+    background-color: #fff;
+    border: 1px solid var(--color-link);
+    border-radius: 3px; 
+}
+.button {
+    color: #000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+@media screen and (max-width: 1360px) {
+
+}
+/* Home */
+
+@media screen and (max-width: 1360px) {
+
+}
+/* Scills */
+
+@media screen and (max-width: 1360px) {
+
+}
+/* About */
+
+@media screen and (max-width: 1360px) {
+
+}
+/* Pricing */
+
+@media screen and (max-width: 1360px) {
+
+}
+/* Contacts */
+
+@media screen and (max-width: 1360px) {
+
+}
+/* Footer */
+
+@media screen and (max-width: 1360px) {
+
+}
