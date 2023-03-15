@@ -65,6 +65,10 @@ header {
     border-radius: 3px; 
     cursor: pointer;
 }
+.header__nav-button :hover {
+    background-color: var(--color-link);
+    color: #fff;
+}
 .button {
     color: #000;
     font-style: normal;
@@ -207,8 +211,6 @@ header {
     border-radius: 8px;
     padding: 0 22px;
 }
-.img-3 {
-}
 .item-4 {
     grid-area: 2 / 2 / 3 / 4;
     min-height: 343px;
@@ -218,8 +220,6 @@ header {
     justify-content: space-between;
     padding: 0 22px;
     padding-top: 64px;
-}
-.img-4 {
 }
 @media screen and (max-width: 1360px) {
 
@@ -232,8 +232,6 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 194px;
-}
-.about__grid-items {
 }
 .about__grid-item-h {
     font-style: normal;
@@ -358,11 +356,87 @@ header {
 
 }
 /* Contacts */
+.contacts__flex {
+    display: flex;
+    align-items: center;
+    margin-top: 261px;
+}
+.contacts__flex-img {
+    margin-right: 111px;
+    width: 429px;
+    height: 477px;
+}
+.contacts__flex-item-h {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+    margin-bottom: 37px;
+}
+.contacts__flex-item-p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+    margin-bottom: 50px;
+}
+.contacts__flex-item-flex {
+    display: flex;
+}
+.contacts__flex-item-input {
+    width: 450px;
+    height: 80px;
+    border: 1px solid #8F95A5;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.contacts__flex-item-button {
+    width: 264px;
+    height: 80px;
+    background-color: var(--color-link);
+    border-radius: 8px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.contacts__flex-item-button-h {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
 
 @media screen and (max-width: 1360px) {
 
 }
 /* Footer */
+footer {
+    margin-top: 133px;
+    height: 149px;
+}
+.footer__flex {
+    border-top: 1px solid #C4C4C4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 149px;
+}
+.footer__flex-img {
+
+}
+.footer__flex-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
+}
 
 @media screen and (max-width: 1360px) {
 
