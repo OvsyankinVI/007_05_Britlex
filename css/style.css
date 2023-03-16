@@ -44,7 +44,8 @@ header {
 .header__nav-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    width: 518px;
+    max-width: 750px;
+    width: 100%;
 }
 .header__nav-grid-a {
     color: var(--color-link);
@@ -53,31 +54,91 @@ header {
     font-size: 20px;
     line-height: 30px;
     text-decoration: none;
-}
-.header__nav-grid-a :hover {
-    background-color: #ed0000;
+    text-align: center;
 }
 .header__nav-button {
     width: 220px;
     height: 70px;
     background-color: #fff;
     border: 1px solid var(--color-link);
-    border-radius: 3px; 
+    border-radius: 5px; 
     cursor: pointer;
 }
 .header__nav-button :hover {
     background-color: var(--color-link);
     color: #fff;
+    border-radius: 5px; 
 }
-.button {
+.header__nav-button-h {
+    width: 220px;
+    height: 70px;
+    padding-top: 17px;
     color: #000;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
 }
+.header__nav-burger {
+    display: none;
+    width: 30px;
+    height: 17px;
+}
+.header__nav-burger-line {
+    background-color: #39515E;
+    width: 30px;
+    height: 3px;
+    margin-bottom: 4px;
+}
+.header__nav-burger-line-min {
+    background-color: #39515E;
+    width: 21px;
+    height: 3px;
+}
 @media screen and (max-width: 1360px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .header__nav-grid-a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .header__nav-grid {
+        width: 414px;
+    }
+    .header__nav-button, .header__nav-button-h {
+        width: 160px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .header__nav-button-h {
+        padding-top: 11px;
+    }
+    .header__nav-img {
+        width: 89px;
+        height: 30px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .header__nav-grid, .header__nav-button {
+        display: none;
+    }
+    .header__nav-burger {
+        display: block;
+    }
+}
+@media screen and (max-width: 575px) {
 
+}
+@media screen and (max-width: 320px) {
+    .header__nav-img {
+        width: 79px;
+        height: 25px;
+    }
 }
 /* Home */
 .home {
@@ -131,7 +192,16 @@ header {
     padding-left: 119px;
 }
 
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 992px) {
+
+}
+@media screen and (max-width: 767px) {
+
+}
+@media screen and (max-width: 575px) {
+
+}
+@media screen and (max-width: 320px) {
 
 }
 /* Scills */
@@ -221,7 +291,16 @@ header {
     padding: 0 22px;
     padding-top: 64px;
 }
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 992px) {
+
+}
+@media screen and (max-width: 767px) {
+
+}
+@media screen and (max-width: 575px) {
+
+}
+@media screen and (max-width: 320px) {
 
 }
 /* About */
@@ -269,7 +348,16 @@ header {
     color: #8F95A5;
     text-align: center;
 }
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 992px) {
+
+}
+@media screen and (max-width: 767px) {
+
+}
+@media screen and (max-width: 575px) {
+
+}
+@media screen and (max-width: 320px) {
 
 }
 /* Pricing */
@@ -311,6 +399,7 @@ header {
     line-height: 30px;
     color: #8F95A5;
 }
+
 .pricing__grid-item-flex {
     margin-top: 59px;
     display: flex;
@@ -352,7 +441,16 @@ header {
     color: #546269;
 }
 
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 992px) {
+
+}
+@media screen and (max-width: 767px) {
+
+}
+@media screen and (max-width: 575px) {
+
+}
+@media screen and (max-width: 320px) {
 
 }
 /* Contacts */
@@ -411,8 +509,16 @@ header {
     line-height: 30px;
     color: #FFFFFF;
 }
+@media screen and (max-width: 992px) {
 
-@media screen and (max-width: 1360px) {
+}
+@media screen and (max-width: 767px) {
+
+}
+@media screen and (max-width: 575px) {
+
+}
+@media screen and (max-width: 320px) {
 
 }
 /* Footer */
@@ -438,6 +544,15 @@ footer {
     color: #8F95A5;
 }
 
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 992px) {
+
+}
+@media screen and (max-width: 767px) {
+
+}
+@media screen and (max-width: 575px) {
+
+}
+@media screen and (max-width: 320px) {
 
 }
