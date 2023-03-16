@@ -324,7 +324,7 @@ header {
         line-height: 27px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
     .home__flex-img {
         width: 299px;
         height: 299px;
@@ -584,27 +584,9 @@ header {
         display: block;
         margin: 0;
     }
-    .img-1 {
-        
-    }
-    .img-2 {
-        
-    }
-    .img-3 {
-        
-    }
-    .img-4 {
-        
-    }
-    .home__grid-item-button {
-        
-    }
     .item-1, .item-2, .item-3, .item-4 {
         margin: 20px auto 0 auto;
     }
-    .img-1 {
-        
-}
 }
 /* About */
 .about {
@@ -660,7 +642,7 @@ header {
 @media screen and (max-width: 575px) {
 
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
 
 }
 /* Pricing */
