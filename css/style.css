@@ -8,7 +8,7 @@ html {
     margin: 0;
     padding: 0;
 }
-body {
+body, h1, h2, h3, h4, h5, p {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
@@ -96,9 +96,9 @@ header {
     height: 3px;
 }
 @media screen and (max-width: 1360px) {
-    .container {
-        padding-left: 30px;
-        padding-right: 30px;
+    header .container {
+        padding-left: 10px;
+        padding-right: 20px;
     }
 }
 @media screen and (max-width: 992px) {
@@ -122,6 +122,9 @@ header {
         width: 89px;
         height: 30px;
     }
+    .header__nav {
+        padding: 30px 0;
+    }
 }
 @media screen and (max-width: 767px) {
     .header__nav-grid, .header__nav-button {
@@ -130,14 +133,17 @@ header {
     .header__nav-burger {
         display: block;
     }
-}
-@media screen and (max-width: 575px) {
-
+    .header__nav {
+        padding: 20px 0;
+    }
 }
 @media screen and (max-width: 320px) {
     .header__nav-img {
         width: 79px;
         height: 25px;
+    }
+    .header__nav {
+        padding: 10px 0;
     }
 }
 /* Home */
@@ -145,10 +151,11 @@ header {
     padding-top: 178px;
 }
 .home__flex {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
 }
-.hime__flex-item {
+.home__flex-item {
     width: 560px;
 }
 .home__flex-flex {
@@ -189,20 +196,156 @@ header {
     line-height: 54px;
 }
 .home__flex-img {
-    padding-left: 119px;
+    padding-left: 19px;
+    width: 661px;
+    height: 661px;
 }
 
 @media screen and (max-width: 992px) {
-
+    .home__flex-img {
+        width: 460px;
+        height: 460px;
+    }
+    .home__flex-item {
+        width: 459px;
+    }
+    .home {
+        padding-top: 130px;
+    }
+    .home__flex-flex-h {
+        font-size: 48px;
+        line-height: 64px;
+        margin-bottom: 27px;
+        max-width: 290px;
+        width: 100%;
+    }
+    .home__flex-p {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 33px;
+    }
+    .home__flex-button {
+        width: 292px;
+        height: 80px;
+    }
+    .home__flex-button-h {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .home__flex-flex-img {
+        width: 59px;
+        height: 59px;
+        padding: 0;
+    }
 }
 @media screen and (max-width: 767px) {
+    
+    .home__flex-img {
+        width: 460px;
+        height: 460px;
+        padding: 0;
+    }
+    .home__flex-item {
+        width: 341px;
+    }
+    .home {
+        padding-top: 110px;
+    }
+    .home__flex-flex-h {
+        font-size: 36px;
+        line-height: 45px;
+        margin-bottom: 27px;
+        max-width: 290px;
+        width: 100%;
+    }
+    .home__flex-p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 33px;
+    }
+    .home__flex-button {
+        width: 236px;
+        height: 65px;
+    }
+    .home__flex-button-h {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .home__flex-flex-img {
+        width: 50px;
+        height: 50px;
+    }
 
 }
 @media screen and (max-width: 575px) {
-
+    .home__flex-img {
+        width: 424px;
+        height: 424px;
+        margin: 0 auto;
+    }
+    .home__flex-item {
+        max-width: 491px;
+        width: 100%;
+        grid-row-start: 2;
+    }
+    .home__flex {
+        grid-template-columns: repeat(1, 2fr);
+    }
+    .home {
+        padding-top: 90px;
+    }
+    .home__flex-flex-img {
+        display: none;
+    }
+    .home__flex-flex {
+        justify-content: center;
+    }
+    .home__flex-flex-h {
+        font-size: 34px;
+        line-height: 45px;
+        text-align: center;
+    }
+    .home__flex-p {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .home__flex-button {
+        display: block;
+        margin: 0 auto;
+        width: 305px;
+        height: 75px;
+    }
+    .home__flex-button-h {
+        font-size: 18px;
+        line-height: 27px;
+    }
 }
 @media screen and (max-width: 320px) {
-
+    .home__flex-img {
+        width: 299px;
+        height: 299px;
+    }
+    .home {
+        padding-top: 70px;
+    }
+    .home__flex-flex-h {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .home__flex-p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .home__flex-button {
+        width: 289px;
+        height: 60px;
+    }
+    .home__flex-button-h {
+        font-size: 16px;
+        line-height: 24px;
+    }
 }
 /* Scills */
 .skills-h2 {
