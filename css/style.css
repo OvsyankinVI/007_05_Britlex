@@ -26,6 +26,12 @@ body, h1, h2, h3, h4, h5, p {
     margin: 0 auto;
 }
 /* Header */
+.modal {
+    border-radius: 20px;
+}
+.modal-footer {
+    text-align: center;
+}
 header {
     background-color: #fff;
     margin: 0 auto;

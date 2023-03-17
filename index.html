@@ -25,6 +25,20 @@
         <li><a href="#!" class="sidenav-close">Close</a></li>
     </ul>
     
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+          <h5>Mail</h5>
+          <input type="text" placeholder="text@youremail.com">
+        </div>
+        <div class="modal-content">
+          <h5>Password</h5>
+          <input type="password" name="" id="">
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Sing in</a>
+        </div>
+      </div> 
+
     <header id="header">
         <div class="container">
             <div class="header__nav">
@@ -37,9 +51,9 @@
                     <a href="#contacts" class="header__nav-grid-a">Contacts</a>
                 </div>
                 <button class="header__nav-button">
-                    <h3 class="header__nav-button-h">Let's Talk</h3>
+                    <a href="#modal1" class="modal-trigger"><h3 class="header__nav-button-h">Let's Talk</h3></a>
                 </button>
-                <a  class="header__nav-burger sidenav-trigger" data-target="slide-out"">
+                <a  class="header__nav-burger sidenav-trigger" data-target="slide-out">
                     <div class="header__nav-burger-line"></div>
                     <div class="header__nav-burger-line"></div>
                     <div class="header__nav-burger-line-min"></div>
@@ -60,7 +74,7 @@
                         each student, you will be able to make your
                         first sketch after the first lesson.</p>
                     <button class="home__flex-button">
-                        <h2 class="home__flex-button-h">Get started</h2>
+                        <a href="#modal1" class="modal-trigger"><h3 class="home__flex-button-h">Get started</h3></a>
                     </button>
                 </div>
                 <img src="img/home-img.png" alt="home__img" class="home__flex-img">
