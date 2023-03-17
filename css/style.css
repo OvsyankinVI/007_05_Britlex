@@ -1205,8 +1205,7 @@ footer {
         margin-top: 24px;
     }
     .footer__flex-img {
-        margin-top: 36px;
-        margin: 0 auto;
+        margin: 36px auto 0 auto;
         display: block;
     }
 }
