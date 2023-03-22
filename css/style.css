@@ -33,7 +33,6 @@ body, h1, h2, h3, h4, h5, p {
     text-align: center;
 }
 header {
-    background-color: #fff;
     margin: 0 auto;
     position: fixed;
     background-color: #fff;
@@ -490,7 +489,7 @@ header {
         height: 441px;
     }
     .item-4 {
-        height: 210px;
+        height: 235px;
         padding-top: 7px;
     }
 }
@@ -651,6 +650,9 @@ header {
     text-align: center;
 }
 .about-h {
+    display: none;
+}
+.contacts-h {
     display: none;
 }
 @media screen and (max-width: 1330px) {
