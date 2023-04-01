@@ -1,5 +1,4 @@
-# Britlex
-##### English language courses
+# Britlex - English language courses
 ***
 #### Fully adaptive cross-browser website
 
